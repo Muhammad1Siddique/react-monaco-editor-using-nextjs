@@ -1,0 +1,30 @@
+{
+  "name": "monaco-edit-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.5.1",
+    "@types/node": "20.4.5",
+    "@types/react": "18.2.16",
+    "@types/react-dom": "18.2.7",
+    "@zeit/next-css": "^1.0.1",
+    "bootstrap": "^5.3.1",
+    "eslint": "8.45.0",
+    "eslint-config-next": "13.4.12",
+    "monaco-editor": "^0.40.0",
+    "monaco-editor-webpack-plugin": "^7.1.0",
+    "next": "13.4.12",
+    "next-yaml": "^1.0.1",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-dom": "18.2.0",
+    "react-monaco-editor": "^0.54.0",
+    "typescript": "5.1.6"
+  }
+}
