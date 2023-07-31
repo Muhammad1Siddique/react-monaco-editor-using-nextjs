@@ -2,6 +2,7 @@
 import { useState, useRef } from "react";
 import dynamic from "next/dynamic";
 import {Container, Button} from 'react-bootstrap'
+import ApplyModifications from '../components/react-monaco-editor/upgrade-yaml';
 
 const DiffEditor = dynamic(() => import("../components/monaco-editor/diff-editor"), {
   ssr: false,
@@ -353,7 +354,8 @@ metrics:
       <h1 className={`mb-5`}>Monaco Editor Home <Button className="btn btn-primary" onClick={()=>setDisplay(!display)}>Toogle</Button></h1>
       {/* {display ?<Editor FuncYamlfile={FuncYamlfile} chartvalue={MonanoData.current} />:<DiffEditor FuncYamlfile={FuncYamlfile} chartvalue={MonacoDiff.current} orginalvalue={MonanoData.current}/>} */}
       {/* <DiffEditor FuncYamlfile={FuncYamlfile} chartvalue={MonacoDiff.current} orginalvalue={MonanoData.current}/> */}
-      <ReactMonacoEditor />
+      {/* <ReactMonacoEditor /> */}
+      <ApplyModifications/>
     </Container>
   );
 };

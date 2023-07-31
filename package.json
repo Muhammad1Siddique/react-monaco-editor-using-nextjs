@@ -17,6 +17,8 @@
     "bootstrap": "^5.3.1",
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.12",
+    "fast-json-patch": "^3.1.1",
+    "lodash": "^4.17.21",
     "monaco-editor": "^0.40.0",
     "monaco-editor-webpack-plugin": "^7.1.0",
     "next": "13.4.12",
@@ -25,6 +27,10 @@
     "react-bootstrap": "^2.8.0",
     "react-dom": "18.2.0",
     "react-monaco-editor": "^0.54.0",
-    "typescript": "5.1.6"
+    "typescript": "5.1.6",
+    "yaml": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.196"
   }
 }
